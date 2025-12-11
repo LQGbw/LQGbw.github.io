@@ -1,0 +1,10 @@
+site_name: LQC的个人网站
+site_url: https://lqc.github.io
+site_author: LQC
+site_description: LQC的个人网站
+site_keywords: LQC,个人网站,博客
+site_favicon: assets/images/favicon.ico
+site_logo: assets/images/logo.png
+site_theme: readthedocs
+site_footer: Copyright 2025 LQC
+site_copyright: Copyright 2025 LQC
