@@ -159,7 +159,7 @@ hide:
         .wrap { width: min(100% - 30px, 620px); }
         .links { display: none; }
         .hero { padding-top: 53px; }
-        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        . { align-items: flex-start; flex-wrap: wrap; }\n        . > a { margin-left: 63px; }\n                .project.featured { grid-column: auto; }
+        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n                .project.featured { grid-column: auto; }
         .hero-card { max-width: 520px; margin: 0 auto; }
         section { padding: 70px 0; }
         .section-head { display: block; }
@@ -168,7 +168,7 @@ hide:
         .path-card { min-height: 210px; }
         .log { grid-template-columns: 1fr auto; gap: 7px 15px; }
         .log time { grid-column: 1 / -1; }
-        .log > a { grid-column: 2; grid-row: 2 / span 2; }
+        .log > a, .log > span { grid-column: 2; grid-row: 2 / span 2; }
         .footer-row { align-items: flex-start; flex-direction: column; }
       }
     
