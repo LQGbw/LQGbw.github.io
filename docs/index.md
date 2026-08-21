@@ -222,7 +222,7 @@ hide:
       </div></section>
     </main>
 
-    <footer><div class="wrap footer-row"><p>© 2026 LQGbw · 边学边做 AI</p><div class="socials"><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#">小红书 ↗</a><a href="mailto:hello@lqgbw.github.io">联系我 ↗</a></div></div></footer>
+    <footer><div class="wrap footer-row"><p>© 2026 LQGbw · 边学边做 AI</p><div class="socials"><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#">小红书 ↗</a><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">联系我 ↗</a></div></div></footer>
     <script>
       const revealObserver = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }), { threshold: .12 });
       document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
