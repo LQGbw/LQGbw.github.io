@@ -25,11 +25,21 @@
 - **项目展示**：记录正在做的 AI 工具和工作流实验
 - **成长记录**：发布阶段性的学习笔记和实践复盘
 
+## 公开实验项目
+
+这些仓库目前主要是前端展示、交互和 AI 生成式尝试，属于公开学习记录，并非成熟可直接使用的工具：
+
+- [Christmas Tree · Particle Effects](https://github.com/LQGbw/Christmas-Tree-with-partical-effects)：节日主题 3D 粒子视觉交互实验
+- [杭州地铁出口助手](https://github.com/LQGbw/metro-exit-helper)：杭州地铁出口与无障碍信息交互原型
+- [JobCollector AI](https://github.com/LQGbw/JobScartch-To-tabulate)：用 Gemini 尝试提取和整理招聘信息
+- [3D Particle Controller](https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller)：基于手势识别控制 3D 粒子系统的尝试
+- [Christmas Tree · No Hand Control](https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll)：节日视觉交互的无手势版本
+
 ## 相关链接
 
 - [个人主页](https://lqgbw.github.io/)
 - [GitHub 主页](https://github.com/LQGbw)
-- 小红书：待补充
+- [小红书](https://xhslink.cn/o/UHwuRBq7E0)
 
 ## 技术说明
 
