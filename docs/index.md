@@ -121,9 +121,9 @@ hide:
       .resource-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 22px; padding-top: 13px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
       .resource-foot a { color: var(--purple-deep); font-weight: 700; }
 
-      .project-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 14px; }
+      .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
       .project { min-height: 220px; padding: 28px; border: 1px solid var(--line); border-radius: 22px; background: white; }
-      .project.featured { background: var(--ink); color: white; border-color: var(--ink); }
+      .project.featured { background: var(--ink); color: white; border-color: var(--ink); grid-column: 1 / -1; }
       .project.featured p, .project.featured .project-meta { color: #b6b2bc; }
       .project h3 { margin: 25px 0 7px; font-size: 24px; letter-spacing: -.05em; }
       .project p { max-width: 450px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
@@ -151,7 +151,7 @@ hide:
         .wrap { width: min(100% - 30px, 620px); }
         .links { display: none; }
         .hero { padding-top: 53px; }
-        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }
+        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        .project.featured { grid-column: auto; }
         .hero-card { max-width: 520px; margin: 0 auto; }
         section { padding: 70px 0; }
         .section-head { display: block; }
@@ -214,8 +214,14 @@ hide:
     <div class="resource-grid"><article class="resource reveal" data-type="skill"><span class="resource-label">SKILL</span><h3>AI 周报整理助手</h3><p>把一周的碎片信息整理成清晰的周报结构，适合个人复盘和团队同步。</p><div class="resource-foot"><span>v0.1 · 刚刚更新</span><a href="#">查看 GitHub ↗</a></div></article><article class="resource reveal" data-type="prompt"><span class="resource-label">PROMPT</span><h3>工具测评提示词模板</h3><p>从功能、体验、适用人群和真实场景四个角度，快速写出一篇有用的工具测评。</p><div class="resource-foot"><span>可复制 · 免费</span><a href="#">查看模板 ↗</a></div></article><article class="resource reveal" data-type="tool"><span class="resource-label">TOOLKIT</span><h3>AI 工具选择清单</h3><p>按写作、研究、设计、自动化和开发分类，记录我实际用过的工具。</p><div class="resource-foot"><span>21 个工具 · 持续补充</span><a href="#">打开清单 ↗</a></div></article></div>
   </div></section>
 
-  <section id="projects"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / BUILD IN PUBLIC</div><h2>学习的结果，<br />应该留下作品。</h2></div><p class="section-intro">这里记录正在做的实验，不追求完美发布，只追求每一次都比上一次更进一步。</p></div>
-    <div class="project-grid"><article class="project featured reveal"><div class="project-meta"><span>进行中</span><span>AI WORKFLOW</span></div><h3>我的第一个 AI 工具实验室</h3><p>一个用来记录 AI 工具、工作流和个人实践的空间。它会慢慢变成我的公开学习档案。</p><a class="project-link" href="#">查看项目详情 ↗</a></article><article class="project reveal"><div class="project-meta"><span>计划中</span></div><h3>小红书内容工作流</h3><p>探索如何用 AI 辅助选题、研究、写作和复盘，同时保留自己的判断和表达。</p><a class="project-link" href="#">关注更新 ↗</a></article></div>
+  <section id="projects"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / BUILD IN PUBLIC</div><h2>学习的结果，<br />应该留下作品。</h2></div><p class="section-intro">这里记录我的公开前端实验和 AI 生成式尝试，不把它们包装成成熟工具，只留下真实的过程、界面和交互。</p></div>
+    <div class="project-grid">
+      <article class="project featured reveal"><div class="project-meta"><span>前端实验</span><span>AI STUDIO</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>交互 Demo</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>AI 尝试</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>视觉交互</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>视觉实验</span><span>FRONTEND</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+    </div>
   </div></section>
 
   <section class="log-section" id="log"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">04 / FIELD NOTES</div><h2>成长不是口号，<br />是留下记录。</h2></div><p class="section-intro">一些正在发生的小事。以后回头看，这就是我走过的路。</p></div>
@@ -223,7 +229,7 @@ hide:
   </div></section>
 </main>
 
-<footer><div class="wrap footer-row"><p>© 2026 LQGbw · 边学边做 AI</p><div class="socials"><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">GitHub ↗</a><a href="#">小红书 ↗</a><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">联系我 ↗</a></div></div></footer>
+<footer><div class="wrap footer-row"><p>© 2026 LQGbw · 边学边做 AI</p><div class="socials"><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://xhslink.cn/o/UHwuRBq7E0" target="_blank" rel="noreferrer">小红书 ↗</a><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">联系我 ↗</a></div></div></footer>
 <script>
   const revealObserver = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
