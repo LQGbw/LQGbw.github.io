@@ -153,7 +153,7 @@ hide:
       .socials { display: flex; gap: 18px; color: var(--muted); font-size: 12px; font-weight: 700; }
       .socials a:hover { color: var(--purple-deep); }
 
-      .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
+      .reveal { opacity: 1; transform: none; transition: opacity .65s ease, transform .65s ease; }
       .reveal.show { opacity: 1; transform: none; }
       @media (max-width: 800px) {
         .wrap { width: min(100% - 30px, 620px); }
