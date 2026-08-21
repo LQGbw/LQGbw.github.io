@@ -106,6 +106,12 @@ hide:
       .path-foot a { color: var(--purple-deep); font-weight: 700; }
       .path-status { color: var(--muted); font-size: 11px; font-weight: 700; }
       .resource-status, .log-status { color: var(--muted); font-size: 11px; font-weight: 700; }
+      .course-note { margin-top: 18px; padding: 25px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.78); }
+      .course-note h3 { margin: 8px 0 7px; font-size: 20px; letter-spacing: -.04em; }
+      .course-note p { max-width: 760px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+      .course-note-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
+      .course-note-grid div { padding: 13px; border-radius: 12px; background: var(--warm); color: var(--muted); font-size: 12px; }
+      .course-note-grid strong { display: block; margin-bottom: 4px; color: var(--ink); font-size: 12px; }
 
       .resource-section { background: var(--warm); }
       .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
@@ -164,7 +170,7 @@ hide:
         section { padding: 70px 0; }
         .section-head { display: block; }
         .section-intro { margin-top: 16px; }
-        .path-grid, .resource-grid, .about-grid { grid-template-columns: 1fr; }
+        .path-grid, .resource-grid, .about-grid, .course-note-grid { grid-template-columns: 1fr; }
         .path-card { min-height: 210px; }
         .log { grid-template-columns: 1fr auto; gap: 7px 15px; }
         .log time { grid-column: 1 / -1; }
@@ -215,17 +221,26 @@ hide:
 
   <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到形成行业判断的前三个阶段，课程只是起点，真正重要的是把知识变成自己的认知框架。</p></div>
     <div class="path-grid">
-      <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><span class="path-status">持续整理</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><a href="/#course-notes">查看课程介绍 →</a></div></article>
       <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><a href="/#resources">查看资源库 →</a></div></article>
       <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 行业认知</h3><p>关注 AI 工具、应用场景、产品形态和行业变化，逐渐形成判断什么值得学、什么值得做的能力。</p></div><div class="path-foot"><span>趋势与场景</span><span class="path-status">持续观察</span></div></article>
+    </div>
+    <div class="course-note reveal" id="course-notes">
+      <div class="eyebrow mono">COURSE NOTES / FOUNDATION</div>
+      <h3>基础课程：AI 入门与应用认知</h3>
+      <p>这部分记录我学过的一门基础课程：从 AI 的基本概念、模型和提示词入手，再逐步理解 AI 工具如何进入真实的工作和生活场景。这里保留课程主题与我的学习方向，不放外部课程链接。</p>
+      <div class="course-note-grid">
+        <div><strong>学到什么</strong>AI 基础概念、模型能力、提示词与常见使用方式</div>
+        <div><strong>留下什么</strong>课程笔记、工具体验和对应用场景的初步理解</div>
+        <div><strong>下一步</strong>继续观察行业变化，再把认知转成真实实验</div>
+      </div>
     </div>
   </div></section>
 
   <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / AI TOOL EXPLORATION</div><h2>认识工具，<br />留下可复用的资源。</h2></div><p class="section-intro">资源库是学习模块第 02 阶段的延伸：记录工具体验、提示词和后续可以复用的方法。</p></div>
-    <div class="filters reveal" role="tablist" aria-label="AI 工具筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="coze">Coze</button><button class="filter" data-filter="dify">Dify</button><button class="filter" data-filter="vibe">Vibe Coding</button><button class="filter" data-filter="harness">Harness</button></div>
+    <div class="filters reveal" role="tablist" aria-label="AI 工具筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="platform">Coze / Dify</button><button class="filter" data-filter="vibe">Vibe Coding</button><button class="filter" data-filter="harness">Harness</button></div>
     <div class="resource-grid">
-      <article class="resource reveal" data-type="coze"><span class="resource-label">COZE</span><h3>Coze 平台</h3><p>记录可视化 Bot、工作流和工具调用的体验，关注它适合解决什么问题。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
-      <article class="resource reveal" data-type="dify"><span class="resource-label">DIFY</span><h3>Dify 平台</h3><p>观察知识库、模型编排和应用工作流如何组合，保留真实尝试和限制。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
+      <article class="resource reveal" data-type="platform"><span class="resource-label">PLATFORM</span><h3>Coze / Dify 平台</h3><p>把 Coze 和 Dify 放在一起观察：知识库、Bot、模型编排、工具调用和应用工作流各自适合什么场景。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
       <article class="resource reveal" data-type="vibe"><span class="resource-label">VIBE CODING</span><h3>Vibe Coding 工具</h3><p>尝试用自然语言驱动代码生成和页面迭代，记录效率、边界和返工成本。</p><div class="resource-foot"><span>工具观察 · 持续补充</span><span class="resource-status">整理中</span></div></article>
       <article class="resource reveal" data-type="harness"><span class="resource-label">HARNESS</span><h3>Agent Harness 产品</h3><p>关注 Agent 的工具调用、状态管理和能力组合，为后续自由插拔做产品认知积累。</p><div class="resource-foot"><span>产品观察 · 未来方向</span><span class="resource-status">待整理</span></div></article>
     </div>
