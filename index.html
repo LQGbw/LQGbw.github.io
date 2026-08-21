@@ -1,0 +1,611 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LQGbw 的 AI 学习与实践主页：学习路线、AI 资源、工具实验与成长记录。">
+      
+      
+        <meta name="author" content="LQGbw">
+      
+      
+        <link rel="canonical" href="https://lqgbw.github.io/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>LQGbw · 边学边做 AI</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="LQGbw · 边学边做 AI" class="md-header__button md-logo" aria-label="LQGbw · 边学边做 AI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LQGbw · 边学边做 AI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="LQGbw · 边学边做 AI" class="md-nav__button md-logo" aria-label="LQGbw · 边学边做 AI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    LQGbw · 边学边做 AI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+
+<style>
+      :root {
+        --ink: #26242b;
+        --muted: #77737d;
+        --line: #e9e4df;
+        --paper: #fbfaf8;
+        --warm: #f4efe9;
+        --lilac: #e9dcff;
+        --purple: #8357d8;
+        --purple-deep: #5e35ad;
+        --green: #dcebdc;
+        --yellow: #f7e6ad;
+        --blue: #dce9f4;
+        --shadow: 0 22px 60px rgba(65, 42, 94, 0.09);
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: "Noto Sans SC", system-ui, sans-serif;
+        line-height: 1.65;
+      }
+      a { color: inherit; text-decoration: none; }
+      .wrap { width: min(1120px, calc(100% - 44px)); margin: 0 auto; }
+      .mono { font-family: "DM Mono", monospace; letter-spacing: .02em; }
+      .eyebrow { color: var(--purple-deep); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(251, 250, 248, .84);
+        border-bottom: 1px solid rgba(233, 228, 223, .86);
+        backdrop-filter: blur(14px);
+      }
+      .nav { height: 74px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+      .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -.02em; }
+      .mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 11px; background: var(--purple); color: white; box-shadow: 0 7px 18px rgba(131, 87, 216, .24); font-family: "DM Mono", monospace; font-size: 16px; }
+      .brand small { display: block; color: var(--muted); font-size: 10px; font-weight: 500; letter-spacing: .1em; }
+      .links { display: flex; align-items: center; gap: 26px; color: var(--muted); font-size: 13px; font-weight: 600; }
+      .links a { transition: color .2s ease; }
+      .links a:hover { color: var(--purple-deep); }
+      .nav-cta { padding: 10px 16px; border-radius: 99px; background: var(--ink); color: white; font-size: 13px; font-weight: 700; transition: transform .2s, background .2s; }
+      .nav-cta:hover { transform: translateY(-2px); background: var(--purple-deep); }
+
+      .hero { padding: 78px 0 65px; position: relative; overflow: hidden; }
+      .hero::before { content: ""; position: absolute; width: 560px; height: 560px; border-radius: 50%; background: radial-gradient(circle, rgba(233, 220, 255, .84), rgba(233, 220, 255, 0) 68%); top: -260px; right: -140px; pointer-events: none; }
+      .hero-grid { display: grid; grid-template-columns: 1.06fr .94fr; gap: 68px; align-items: center; position: relative; }
+      h1 { max-width: 650px; margin: 18px 0 20px; font-size: clamp(44px, 6.2vw, 78px); line-height: 1.12; letter-spacing: -.06em; font-weight: 800; }
+      h1 em { color: var(--purple-deep); font-style: normal; }
+      .lead { max-width: 550px; color: var(--muted); font-size: 17px; line-height: 1.85; }
+      .hero-actions { display: flex; align-items: center; gap: 13px; flex-wrap: wrap; margin-top: 30px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 13px 19px; border-radius: 12px; border: 1px solid var(--ink); font-size: 13px; font-weight: 700; transition: transform .2s, box-shadow .2s, background .2s; }
+      .button:hover { transform: translateY(-3px); box-shadow: 0 10px 22px rgba(38, 36, 43, .12); }
+      .button.primary { background: var(--ink); color: white; }
+      .button.ghost { border-color: var(--line); background: white; }
+      .button.ghost:hover { border-color: var(--purple); color: var(--purple-deep); }
+      .hero-note { margin-top: 22px; color: var(--muted); font-size: 12px; }
+      .hero-note span { color: var(--purple-deep); font-weight: 700; }
+
+      .hero-card { position: relative; padding: 27px; border: 1px solid var(--line); border-radius: 28px; background: rgba(255,255,255,.79); box-shadow: var(--shadow); transform: rotate(1.2deg); }
+      .hero-card::after { content: "✦"; position: absolute; right: 22px; top: -26px; color: var(--purple); font-size: 30px; }
+      .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 25px; }
+      .avatar { width: 62px; height: 62px; display: grid; place-items: center; border-radius: 19px; background: linear-gradient(135deg, #f0d7fb, #8c62d9); color: white; font-size: 27px; font-weight: 800; box-shadow: inset 0 -9px 20px rgba(79, 31, 138, .2); }
+      .status { padding: 6px 10px; border-radius: 99px; background: var(--green); color: #3b7048; font-size: 11px; font-weight: 700; }
+      .hero-card h3 { margin: 0 0 5px; font-size: 22px; letter-spacing: -.04em; }
+      .hero-card p { margin: 0; color: var(--muted); font-size: 13px; }
+      .progress { padding: 18px; border-radius: 17px; background: var(--warm); }
+      .progress-head { display: flex; justify-content: space-between; margin-bottom: 13px; font-size: 12px; font-weight: 700; }
+      .progress-head span { color: var(--purple-deep); }
+      .bar { height: 8px; overflow: hidden; border-radius: 99px; background: #e0d9d1; }
+      .bar i { display: block; width: 38%; height: 100%; border-radius: inherit; background: var(--purple); }
+      .mini-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-top: 15px; }
+      .mini { padding: 14px 10px; border-radius: 15px; text-align: center; background: white; border: 1px solid var(--line); }
+      .mini strong { display: block; font-size: 20px; letter-spacing: -.04em; }
+      .mini span { color: var(--muted); font-size: 10px; }
+
+      .ticker { padding: 16px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+      .ticker-inner { display: flex; gap: 30px; align-items: center; flex-wrap: wrap; }
+      .ticker strong { color: var(--ink); }
+      .dot { width: 5px; height: 5px; background: var(--purple); border-radius: 50%; }
+
+      section { padding: 100px 0; scroll-margin-top: 88px; }
+      .section-head { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 33px; }
+      h2 { margin: 8px 0 0; font-size: clamp(28px, 4vw, 42px); line-height: 1.2; letter-spacing: -.055em; }
+      .section-intro { max-width: 365px; margin: 0; color: var(--muted); font-size: 14px; }
+
+      .path-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+      .path-card { min-height: 250px; padding: 25px; display: flex; flex-direction: column; justify-content: space-between; border: 1px solid var(--line); border-radius: 22px; background: white; transition: transform .2s, box-shadow .2s; }
+      .path-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+      .path-card:nth-child(2) { background: var(--lilac); border-color: transparent; }
+      .path-card:nth-child(3) { background: var(--green); border-color: transparent; }
+      .path-icon { width: 39px; height: 39px; display: grid; place-items: center; border-radius: 12px; background: rgba(255,255,255,.65); font-size: 18px; }
+      .path-card h3 { margin: 27px 0 7px; font-size: 20px; letter-spacing: -.04em; }
+      .path-card p { color: var(--muted); margin: 0; font-size: 13px; line-height: 1.7; }
+      .path-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 25px; color: var(--muted); font-size: 11px; }
+      .path-foot a { color: var(--purple-deep); font-weight: 700; }
+      .path-status { color: var(--muted); font-size: 11px; font-weight: 700; }
+      .resource-status, .log-status { color: var(--muted); font-size: 11px; font-weight: 700; }
+      .course-note { margin-top: 18px; padding: 25px; border: 1px solid var(--line); border-radius: 20px; background: rgba(255,255,255,.78); }
+      .course-note h3 { margin: 8px 0 7px; font-size: 20px; letter-spacing: -.04em; }
+      .course-note p { max-width: 760px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+      .course-note-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 18px; }
+      .course-note-grid div { padding: 13px; border-radius: 12px; background: var(--warm); color: var(--muted); font-size: 12px; }
+      .course-note-grid strong { display: block; margin-bottom: 4px; color: var(--ink); font-size: 12px; }
+
+      .resource-section { background: var(--warm); }
+      .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
+      .filter { padding: 8px 13px; border: 1px solid #ded5cd; border-radius: 99px; background: rgba(255,255,255,.58); color: var(--muted); cursor: pointer; font: inherit; font-size: 12px; }
+      .filter.active, .filter:hover { border-color: var(--purple); background: var(--purple); color: white; }
+      .resource-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+      .resource { padding: 21px; border: 1px solid rgba(222, 213, 205, .84); border-radius: 18px; background: rgba(255,255,255,.77); transition: transform .2s; }
+      .resource:hover { transform: translateY(-4px); }
+      .resource.hidden { display: none; }
+      .resource-label { display: inline-block; padding: 5px 8px; border-radius: 6px; background: var(--blue); color: #486a86; font-size: 10px; font-weight: 700; }
+      .resource:nth-child(2) .resource-label { background: var(--yellow); color: #876b1b; }
+      .resource:nth-child(3) .resource-label { background: var(--lilac); color: var(--purple-deep); }
+      .resource h3 { margin: 17px 0 7px; font-size: 17px; letter-spacing: -.035em; }
+      .resource p { min-height: 46px; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.7; }
+      .resource-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 22px; padding-top: 13px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
+      .resource-foot a { color: var(--purple-deep); font-weight: 700; }
+      .about-section { background: var(--lilac); }
+      .about-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+      .about-card { padding: 24px; border: 1px solid rgba(94, 53, 173, .15); border-radius: 20px; background: rgba(255,255,255,.72); }
+      .about-card h3 { margin: 14px 0 7px; font-size: 18px; }
+      .about-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.75; }
+      .about-card a { display: inline-flex; margin-top: 16px; color: var(--purple-deep); font-size: 12px; font-weight: 700; }
+
+      .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+      .project { min-height: 220px; padding: 28px; border: 1px solid var(--line); border-radius: 22px; background: white; }
+      .project.featured { background: var(--ink); color: white; border-color: var(--ink); grid-column: 1 / -1; }
+      .project.featured p, .project.featured .project-meta { color: #b6b2bc; }
+      .project h3 { margin: 25px 0 7px; font-size: 24px; letter-spacing: -.05em; }
+      .project p { max-width: 450px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+      .project-meta { display: flex; gap: 8px; color: var(--muted); font-size: 11px; }
+      .project-meta span { padding: 4px 8px; border: 1px solid currentColor; border-radius: 99px; }
+      .project-link { display: inline-flex; margin-top: 25px; color: var(--purple); font-size: 12px; font-weight: 700; }
+
+      .log-section { border-top: 1px solid var(--line); }
+      .log-list { border-top: 1px solid var(--line); }
+      .log { display: grid; grid-template-columns: 130px 1fr auto; gap: 20px; align-items: center; padding: 19px 0; border-bottom: 1px solid var(--line); }
+      .log time { color: var(--muted); font: 12px "DM Mono", monospace; }
+      .log h3 { margin: 0; font-size: 15px; letter-spacing: -.025em; }
+      .log p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+      .log > a { color: var(--purple-deep); font-size: 12px; font-weight: 700; }
+
+      footer { padding: 35px 0 45px; border-top: 1px solid var(--line); }
+      .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+      .footer-row p { margin: 0; color: var(--muted); font-size: 12px; }
+      .socials { display: flex; gap: 18px; color: var(--muted); font-size: 12px; font-weight: 700; }
+      .socials a:hover { color: var(--purple-deep); }
+
+      .reveal { opacity: 1; transform: none; transition: opacity .65s ease, transform .65s ease; }
+      .reveal.show { opacity: 1; transform: none; }
+      @media (max-width: 800px) {
+        .wrap { width: min(100% - 30px, 620px); }
+        .links { display: none; }
+        .hero { padding-top: 53px; }
+        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n                .project.featured { grid-column: auto; }
+        .hero-card { max-width: 520px; margin: 0 auto; }
+        section { padding: 70px 0; }
+        .section-head { display: block; }
+        .section-intro { margin-top: 16px; }
+        .path-grid, .resource-grid, .about-grid, .course-note-grid { grid-template-columns: 1fr; }
+        .path-card { min-height: 210px; }
+        .log { grid-template-columns: 1fr auto; gap: 7px 15px; }
+        .log time { grid-column: 1 / -1; }
+        .log > a, .log > span { grid-column: 2; grid-row: 2 / span 2; }
+        .footer-row { align-items: flex-start; flex-direction: column; }
+      }
+
+/* MkDocs shell overrides: this page is the homepage, not a docs article. */
+.md-header, .md-sidebar, .md-footer, .md-tabs, .md-search { display: none !important; }
+.md-main { background: var(--paper); }
+.md-main__inner { margin: 0 !important; }
+.md-content { max-width: none !important; }
+.md-content__title { display: none !important; }
+.md-content__inner { margin: 0 !important; padding: 0 !important; }
+</style>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/#top" aria-label="回到首页"><span class="mark">LQ</span><span>LQGbw<small>AI · LEARN · BUILD</small></span></a>
+    <nav class="links" aria-label="主导航">
+      <a href="/#learning">学习</a><a href="/#experiments">实验</a><a href="/#about">关于我</a>
+    </nav>
+    <a class="nav-cta" href="/#about">认识我 ↗</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="eyebrow mono">PERSONAL LAB / 001</div>
+        <h1>边学边做，<br /><em>把 AI 变成</em>真实能力。</h1>
+        <p class="lead">我是 LQGbw，正在记录从学习 AI 基础与行业认知，到尝试前端交互和 AI 工具，再逐步走向有实际用途的小工具、产品、Agent 和多 Agent 的过程。这里有学过的内容、做过的实验，也有下一步的规划。</p>
+        <div class="hero-actions"><a class="button primary" href="/#learning">查看学习路线 <span>↓</span></a><a class="button ghost" href="/#experiments">看我的项目 ↗</a></div>
+        <p class="hero-note"><span>现在进行中：</span>梳理 AI 学习、项目经历和未来规划 · 持续更新</p>
+      </div>
+      <div class="hero-card reveal">
+        <div class="card-top"><div class="avatar">✦</div><span class="status">● 持续更新中</span></div>
+        <h3>我的 AI 成长地图</h3>
+        <p>从学过什么，到做过什么，再到下一步。</p>
+        <div class="progress" style="margin-top: 23px"><div class="progress-head"><span>当前学习进度</span><span>38%</span></div><div class="bar"><i></i></div></div>
+        <div class="mini-grid"><div class="mini"><strong>07</strong><span>成长阶段</span></div><div class="mini"><strong>05</strong><span>公开实验</span></div><div class="mini"><strong>03</strong><span>内容模块</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker"><div class="wrap ticker-inner"><strong class="mono">THIS WEEK</strong><span class="dot"></span><span>梳理 7 阶段成长路径</span><span class="dot"></span><span>整理 AI 行业认知卡片</span><span class="dot"></span><span>把实验逐步变成可用工具</span></div></div>
+
+  <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到形成行业判断的前三个阶段，课程只是起点，真正重要的是把知识变成自己的认知框架。</p></div>
+    <div class="path-grid">
+      <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><a href="/#course-notes">查看课程介绍 →</a></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><a href="/#resources">查看资源库 →</a></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 行业认知</h3><p>关注 AI 工具、应用场景、产品形态和行业变化，逐渐形成判断什么值得学、什么值得做的能力。</p></div><div class="path-foot"><span>趋势与场景</span><span class="path-status">持续观察</span></div></article>
+    </div>
+    <div class="course-note reveal" id="course-notes">
+      <div class="eyebrow mono">COURSE NOTES / FOUNDATION</div>
+      <h3>基础课程：AI 入门与应用认知</h3>
+      <p>这部分记录我学过的一门基础课程：从 AI 的基本概念、模型和提示词入手，再逐步理解 AI 工具如何进入真实的工作和生活场景。这里保留课程主题与我的学习方向，不放外部课程链接。</p>
+      <div class="course-note-grid">
+        <div><strong>学到什么</strong>AI 基础概念、模型能力、提示词与常见使用方式</div>
+        <div><strong>留下什么</strong>课程笔记、工具体验和对应用场景的初步理解</div>
+        <div><strong>下一步</strong>继续观察行业变化，再把认知转成真实实验</div>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / AI TOOL EXPLORATION</div><h2>认识工具，<br />留下可复用的资源。</h2></div><p class="section-intro">资源库是学习模块第 02 阶段的延伸：记录工具体验、提示词和后续可以复用的方法。</p></div>
+    <div class="filters reveal" role="tablist" aria-label="AI 工具筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="platform">Coze / Dify</button><button class="filter" data-filter="vibe">Vibe Coding</button><button class="filter" data-filter="harness">Harness</button></div>
+    <div class="resource-grid">
+      <article class="resource reveal" data-type="platform"><span class="resource-label">PLATFORM</span><h3>Coze / Dify 平台</h3><p>把 Coze 和 Dify 放在一起观察：知识库、Bot、模型编排、工具调用和应用工作流各自适合什么场景。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
+      <article class="resource reveal" data-type="vibe"><span class="resource-label">VIBE CODING</span><h3>Vibe Coding 工具</h3><p>尝试用自然语言驱动代码生成和页面迭代，记录效率、边界和返工成本。</p><div class="resource-foot"><span>工具观察 · 持续补充</span><span class="resource-status">整理中</span></div></article>
+      <article class="resource reveal" data-type="harness"><span class="resource-label">HARNESS</span><h3>Agent Harness 产品</h3><p>关注 Agent 的工具调用、状态管理和能力组合，为后续自由插拔做产品认知积累。</p><div class="resource-foot"><span>产品观察 · 未来方向</span><span class="resource-status">待整理</span></div></article>
+    </div>
+  </div></section>
+
+  <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">当前公开项目都属于 AI 工具探索和前端交互实验；有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
+    <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">现在的公开仓库还不成熟，主要用于记录前端界面、交互方式和 AI 工具尝试。未来再从这些实验走向有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent。</p>
+    <div class="project-grid">
+      <article class="project featured reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+    </div>
+  </div></section>
+
+  <section class="about-section" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / ABOUT ME</div><h2>我学过什么，<br />做过什么，下一步去哪。</h2></div><p class="section-intro">个人介绍不是静态简历，而是一条会持续更新的成长线：把学习、经历和未来规划放在一起。</p></div>
+    <div class="about-grid">
+      <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="/#learning">查看学习模块 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也做过一些带有工具想法的前端交互尝试；它们都是公开成长记录。</p><a href="/#experiments">查看实验经历 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>04 小型实用工具 → 05 完整产品 → 06 Agent / Harness 自由插拔 → 07 多 Agent 协作。现在还在前面的探索阶段。</p><a href="/#experiments">查看未来路线 →</a></article>
+    </div>
+  </div></section>
+
+  <section class="log-section" id="log"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">04 / FIELD NOTES</div><h2>成长不是口号，<br />是留下记录。</h2></div><p class="section-intro">一些正在发生的小事。以后回头看，这就是我走过的路。</p></div>
+    <div class="log-list"><article class="log reveal"><time>2026.08.21</time><div><h3>开始搭建自己的 AI 主页</h3><p>先把学习路线、资源库和项目展示放在一起。</p></div><span class="log-status">记录中</span></article><article class="log reveal"><time>2026.08.18</time><div><h3>为什么想做一个成长型 AI 博主</h3><p>不是假装专家，而是把真实的学习过程分享出来。</p></div><span class="log-status">记录中</span></article><article class="log reveal"><time>2026.08.12</time><div><h3>我开始整理自己的工具箱</h3><p>工具很多，但真正留下来的应该是方法。</p></div><span class="log-status">记录中</span></article></div>
+  </div></section>
+</main>
+
+<footer><div class="wrap footer-row"><p>© 2026 LQGbw · 边学边做 AI</p><div class="socials"><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://xhslink.cn/o/UHwuRBq7E0" target="_blank" rel="noreferrer">小红书 ↗</a><a href="https://github.com/LQGbw" target="_blank" rel="noreferrer">联系我 ↗</a></div></div></footer>
+<script>
+  const revealObserver = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }), { threshold: .12 });
+  document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  const scrollToHash = (hash) => {
+    const target = document.getElementById(hash.replace(/^#/, ''));
+    if (!target) return;
+    window.scrollTo({ top: Math.max(0, target.offsetTop - 88), behavior: 'auto' });
+  };
+  document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach((link) => link.addEventListener('click', (event) => {
+    const href = link.getAttribute('href');
+    const hashIndex = href.indexOf('#');
+    const hash = href.slice(hashIndex);
+    if (!document.getElementById(hash.slice(1))) return;
+    event.preventDefault();
+    scrollToHash(hash);
+    history.replaceState(null, '', hash);
+  }));
+  if (window.location.hash) window.setTimeout(() => scrollToHash(window.location.hash), 0);
+  window.setTimeout(() => document.querySelectorAll('.reveal').forEach((el) => el.classList.add('show')), 1200);
+  document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
+    document.querySelectorAll('.filter').forEach((item) => item.classList.remove('active'));
+    button.classList.add('active');
+    const type = button.dataset.filter;
+    document.querySelectorAll('.resource').forEach((card) => card.classList.toggle('hidden', type !== 'all' && card.dataset.type !== type));
+  }));
+</script>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
