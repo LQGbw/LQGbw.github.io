@@ -183,11 +183,11 @@ hide:
 
 <header>
   <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="回到首页"><span class="mark">LQ</span><span>LQGbw<small>AI · LEARN · BUILD</small></span></a>
+    <a class="brand" href="/#top" aria-label="回到首页"><span class="mark">LQ</span><span>LQGbw<small>AI · LEARN · BUILD</small></span></a>
     <nav class="links" aria-label="主导航">
-      <a href="#learning">学习</a><a href="#experiments">实验</a><a href="#about">关于我</a>
+      <a href="/#learning">学习</a><a href="/#experiments">实验</a><a href="/#about">关于我</a>
     </nav>
-    <a class="nav-cta" href="#about">认识我 ↗</a>
+    <a class="nav-cta" href="/#about">认识我 ↗</a>
   </div>
 </header>
 
@@ -198,7 +198,7 @@ hide:
         <div class="eyebrow mono">PERSONAL LAB / 001</div>
         <h1>边学边做，<br /><em>把 AI 变成</em>真实能力。</h1>
         <p class="lead">我是 LQGbw，正在记录从学习 AI 基础与行业认知，到尝试前端交互和 AI 工具，再逐步走向有实际用途的小工具、产品、Agent 和多 Agent 的过程。这里有学过的内容、做过的实验，也有下一步的规划。</p>
-        <div class="hero-actions"><a class="button primary" href="#learning">查看学习路线 <span>↓</span></a><a class="button ghost" href="#experiments">看我的项目 ↗</a></div>
+        <div class="hero-actions"><a class="button primary" href="/#learning">查看学习路线 <span>↓</span></a><a class="button ghost" href="/#experiments">看我的项目 ↗</a></div>
         <p class="hero-note"><span>现在进行中：</span>梳理 AI 学习、项目经历和未来规划 · 持续更新</p>
       </div>
       <div class="hero-card reveal">
@@ -216,32 +216,37 @@ hide:
   <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到形成行业判断的前三个阶段，课程只是起点，真正重要的是把知识变成自己的认知框架。</p></div>
     <div class="path-grid">
       <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><span class="path-status">持续整理</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><a href="#resources">查看资源库 →</a></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><a href="/#resources">查看资源库 →</a></div></article>
       <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 行业认知</h3><p>关注 AI 工具、应用场景、产品形态和行业变化，逐渐形成判断什么值得学、什么值得做的能力。</p></div><div class="path-foot"><span>趋势与场景</span><span class="path-status">持续观察</span></div></article>
     </div>
   </div></section>
 
   <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / AI TOOL EXPLORATION</div><h2>认识工具，<br />留下可复用的资源。</h2></div><p class="section-intro">资源库是学习模块第 02 阶段的延伸：记录工具体验、提示词和后续可以复用的方法。</p></div>
-    <div class="filters reveal" role="tablist" aria-label="资源筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="skill">Skill</button><button class="filter" data-filter="prompt">Prompt</button><button class="filter" data-filter="tool">工具</button></div>
-    <div class="resource-grid"><article class="resource reveal" data-type="skill"><span class="resource-label">SKILL</span><h3>AI 周报整理助手</h3><p>把一周的碎片信息整理成清晰的周报结构，适合个人复盘和团队同步。</p><div class="resource-foot"><span>v0.1 · 刚刚更新</span><span class="resource-status">整理中</span></div></article><article class="resource reveal" data-type="prompt"><span class="resource-label">PROMPT</span><h3>工具测评提示词模板</h3><p>从功能、体验、适用人群和真实场景四个角度，快速写出一篇有用的工具测评。</p><div class="resource-foot"><span>可复制 · 免费</span><span class="resource-status">即将公开</span></div></article><article class="resource reveal" data-type="tool"><span class="resource-label">TOOLKIT</span><h3>AI 工具选择清单</h3><p>按写作、研究、设计、自动化和开发分类，记录我实际用过的工具。</p><div class="resource-foot"><span>21 个工具 · 持续补充</span><span class="resource-status">持续补充</span></div></article></div>
+    <div class="filters reveal" role="tablist" aria-label="AI 工具筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="coze">Coze</button><button class="filter" data-filter="dify">Dify</button><button class="filter" data-filter="vibe">Vibe Coding</button><button class="filter" data-filter="harness">Harness</button></div>
+    <div class="resource-grid">
+      <article class="resource reveal" data-type="coze"><span class="resource-label">COZE</span><h3>Coze 平台</h3><p>记录可视化 Bot、工作流和工具调用的体验，关注它适合解决什么问题。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
+      <article class="resource reveal" data-type="dify"><span class="resource-label">DIFY</span><h3>Dify 平台</h3><p>观察知识库、模型编排和应用工作流如何组合，保留真实尝试和限制。</p><div class="resource-foot"><span>平台认知 · 待整理</span><span class="resource-status">体验中</span></div></article>
+      <article class="resource reveal" data-type="vibe"><span class="resource-label">VIBE CODING</span><h3>Vibe Coding 工具</h3><p>尝试用自然语言驱动代码生成和页面迭代，记录效率、边界和返工成本。</p><div class="resource-foot"><span>工具观察 · 持续补充</span><span class="resource-status">整理中</span></div></article>
+      <article class="resource reveal" data-type="harness"><span class="resource-label">HARNESS</span><h3>Agent Harness 产品</h3><p>关注 Agent 的工具调用、状态管理和能力组合，为后续自由插拔做产品认知积累。</p><div class="resource-foot"><span>产品观察 · 未来方向</span><span class="resource-status">待整理</span></div></article>
+    </div>
   </div></section>
 
   <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">当前公开项目都属于 AI 工具探索和前端交互实验；有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
     <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">现在的公开仓库还不成熟，主要用于记录前端界面、交互方式和 AI 工具尝试。未来再从这些实验走向有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent。</p>
     <div class="project-grid">
-      <article class="project featured reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project featured reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>实验 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
     </div>
   </div></section>
 
   <section class="about-section" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / ABOUT ME</div><h2>我学过什么，<br />做过什么，下一步去哪。</h2></div><p class="section-intro">个人介绍不是静态简历，而是一条会持续更新的成长线：把学习、经历和未来规划放在一起。</p></div>
     <div class="about-grid">
-      <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="#learning">查看学习模块 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也做过一些带有工具想法的前端交互尝试；它们都是公开成长记录。</p><a href="#experiments">查看实验经历 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>04 小型实用工具 → 05 完整产品 → 06 Agent / Harness 自由插拔 → 07 多 Agent 协作。现在还在前面的探索阶段。</p><a href="#experiments">查看未来路线 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="/#learning">查看学习模块 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也做过一些带有工具想法的前端交互尝试；它们都是公开成长记录。</p><a href="/#experiments">查看实验经历 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>04 小型实用工具 → 05 完整产品 → 06 Agent / Harness 自由插拔 → 07 多 Agent 协作。现在还在前面的探索阶段。</p><a href="/#experiments">查看未来路线 →</a></article>
     </div>
   </div></section>
 
@@ -254,13 +259,21 @@ hide:
 <script>
   const revealObserver = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
-  document.querySelectorAll('a[href^="#"]').forEach((link) => link.addEventListener('click', (event) => {
-    const target = document.getElementById(link.getAttribute('href').slice(1));
+  const scrollToHash = (hash) => {
+    const target = document.getElementById(hash.replace(/^#/, ''));
     if (!target) return;
+    window.scrollTo({ top: Math.max(0, target.offsetTop - 88), behavior: 'auto' });
+  };
+  document.querySelectorAll('a[href^="#"], a[href^="/#"]').forEach((link) => link.addEventListener('click', (event) => {
+    const href = link.getAttribute('href');
+    const hashIndex = href.indexOf('#');
+    const hash = href.slice(hashIndex);
+    if (!document.getElementById(hash.slice(1))) return;
     event.preventDefault();
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    history.replaceState(null, '', link.getAttribute('href'));
+    scrollToHash(hash);
+    history.replaceState(null, '', hash);
   }));
+  if (window.location.hash) window.setTimeout(() => scrollToHash(window.location.hash), 0);
   window.setTimeout(() => document.querySelectorAll('.reveal').forEach((el) => el.classList.add('show')), 1200);
   document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
     document.querySelectorAll('.filter').forEach((item) => item.classList.remove('active'));
