@@ -159,7 +159,7 @@ hide:
         .wrap { width: min(100% - 30px, 620px); }
         .links { display: none; }
         .hero { padding-top: 53px; }
-        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        .course-strip { align-items: flex-start; flex-wrap: wrap; }\n        .course-strip > a { margin-left: 63px; }\n                .project.featured { grid-column: auto; }
+        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        . { align-items: flex-start; flex-wrap: wrap; }\n        . > a { margin-left: 63px; }\n                .project.featured { grid-column: auto; }
         .hero-card { max-width: 520px; margin: 0 auto; }
         section { padding: 70px 0; }
         .section-head { display: block; }
