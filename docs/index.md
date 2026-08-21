@@ -89,7 +89,7 @@ hide:
       .ticker strong { color: var(--ink); }
       .dot { width: 5px; height: 5px; background: var(--purple); border-radius: 50%; }
 
-      section { padding: 100px 0; }
+      section { padding: 100px 0; scroll-margin-top: 88px; }
       .section-head { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin-bottom: 33px; }
       h2 { margin: 8px 0 0; font-size: clamp(28px, 4vw, 42px); line-height: 1.2; letter-spacing: -.055em; }
       .section-intro { max-width: 365px; margin: 0; color: var(--muted); font-size: 14px; }
@@ -185,7 +185,7 @@ hide:
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="回到首页"><span class="mark">LQ</span><span>LQGbw<small>AI · LEARN · BUILD</small></span></a>
     <nav class="links" aria-label="主导航">
-      <a href="#learning">学习</a><a href="#experiments">实验</a><a href="#about">关于我</a><a href="#resources">资源库</a>
+      <a href="#learning">学习</a><a href="#experiments">实验</a><a href="#about">关于我</a>
     </nav>
     <a class="nav-cta" href="#about">认识我 ↗</a>
   </div>
@@ -216,24 +216,18 @@ hide:
   <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到形成行业判断的前三个阶段，课程只是起点，真正重要的是把知识变成自己的认知框架。</p></div>
     <div class="path-grid">
       <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><span class="path-status">持续整理</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><span class="path-status">探索中</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><a href="#resources">查看资源库 →</a></div></article>
       <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 行业认知</h3><p>关注 AI 工具、应用场景、产品形态和行业变化，逐渐形成判断什么值得学、什么值得做的能力。</p></div><div class="path-foot"><span>趋势与场景</span><span class="path-status">持续观察</span></div></article>
     </div>
   </div></section>
 
-  <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">SUPPORT / RESOURCE LIBRARY</div><h2>拿来就用的<br />AI 资源库。</h2></div><p class="section-intro">把我用过、做过、验证过的东西留下来。每份资源都附有使用场景和实践说明。</p></div>
+  <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / AI TOOL EXPLORATION</div><h2>认识工具，<br />留下可复用的资源。</h2></div><p class="section-intro">资源库是学习模块第 02 阶段的延伸：记录工具体验、提示词和后续可以复用的方法。</p></div>
     <div class="filters reveal" role="tablist" aria-label="资源筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="skill">Skill</button><button class="filter" data-filter="prompt">Prompt</button><button class="filter" data-filter="tool">工具</button></div>
     <div class="resource-grid"><article class="resource reveal" data-type="skill"><span class="resource-label">SKILL</span><h3>AI 周报整理助手</h3><p>把一周的碎片信息整理成清晰的周报结构，适合个人复盘和团队同步。</p><div class="resource-foot"><span>v0.1 · 刚刚更新</span><span class="resource-status">整理中</span></div></article><article class="resource reveal" data-type="prompt"><span class="resource-label">PROMPT</span><h3>工具测评提示词模板</h3><p>从功能、体验、适用人群和真实场景四个角度，快速写出一篇有用的工具测评。</p><div class="resource-foot"><span>可复制 · 免费</span><span class="resource-status">即将公开</span></div></article><article class="resource reveal" data-type="tool"><span class="resource-label">TOOLKIT</span><h3>AI 工具选择清单</h3><p>按写作、研究、设计、自动化和开发分类，记录我实际用过的工具。</p><div class="resource-foot"><span>21 个工具 · 持续补充</span><span class="resource-status">持续补充</span></div></article></div>
   </div></section>
 
   <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">当前公开项目都属于 AI 工具探索和前端交互实验；有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
     <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">现在的公开仓库还不成熟，主要用于记录前端界面、交互方式和 AI 工具尝试。未来再从这些实验走向有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent。</p>
-    <div class="path-grid" style="margin-bottom: 35px;">
-      <article class="path-card reveal"><div><div class="path-icon">✦</div><h3>04 · 小型实用工具</h3><p>从 Skill、插件和小工具开始，先解决一个具体问题，把方法变成可以真正使用的简单工具。</p></div><div class="path-foot"><span>Skill · 插件</span><span class="path-status">开始实践</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">▣</div><h3>05 · 完整产品</h3><p>围绕明确场景、用户反馈和数据指标，做更完整、更稳定、可以持续迭代的产品。</p></div><div class="path-foot"><span>产品化</span><span class="path-status">目标阶段</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⌘</div><h3>06 · Agent / Harness</h3><p>探索 Agent 的开发与编排，让工具、能力和流程可以模块化组合、自由插拔。</p></div><div class="path-foot"><span>自由组合</span><span class="path-status">未来方向</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⟐</div><h3>07 · 多 Agent 开发</h3><p>研究角色分工、协作、调度和可观测性，让多个 Agent 在复杂任务中协同工作。</p></div><div class="path-foot"><span>协作系统</span><span class="path-status">长期探索</span></div></article>
-    </div>
     <div class="project-grid">
       <article class="project featured reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
       <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
@@ -247,7 +241,7 @@ hide:
     <div class="about-grid">
       <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="#learning">查看学习模块 →</a></article>
       <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也做过一些带有工具想法的前端交互尝试；它们都是公开成长记录。</p><a href="#experiments">查看实验经历 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>从小型实用工具走向完整产品，再探索 Agent / Harness 的自由插拔和多 Agent 协作。</p><a href="#experiments">查看未来路线 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>04 小型实用工具 → 05 完整产品 → 06 Agent / Harness 自由插拔 → 07 多 Agent 协作。现在还在前面的探索阶段。</p><a href="#experiments">查看未来路线 →</a></article>
     </div>
   </div></section>
 
@@ -260,6 +254,14 @@ hide:
 <script>
   const revealObserver = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('show'); }), { threshold: .12 });
   document.querySelectorAll('.reveal').forEach((el) => revealObserver.observe(el));
+  document.querySelectorAll('a[href^="#"]').forEach((link) => link.addEventListener('click', (event) => {
+    const target = document.getElementById(link.getAttribute('href').slice(1));
+    if (!target) return;
+    event.preventDefault();
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    history.replaceState(null, '', link.getAttribute('href'));
+  }));
+  window.setTimeout(() => document.querySelectorAll('.reveal').forEach((el) => el.classList.add('show')), 1200);
   document.querySelectorAll('.filter').forEach((button) => button.addEventListener('click', () => {
     document.querySelectorAll('.filter').forEach((item) => item.classList.remove('active'));
     button.classList.add('active');
