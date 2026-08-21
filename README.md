@@ -32,11 +32,11 @@
 
 这些仓库目前都属于实验模块中的公开经历，主要是前端展示、交互和 AI 生成式尝试，并不是成熟、可直接使用的工具：
 
-- [Christmas Tree · Particle Effects](https://github.com/LQGbw/Christmas-Tree-with-partical-effects)：实验模块 · AI 工具探索的节日主题 3D 粒子视觉交互实验
-- [杭州地铁出口助手](https://github.com/LQGbw/metro-exit-helper)：实验模块 · AI 工具探索的出行场景前端交互原型
-- [JobCollector AI](https://github.com/LQGbw/JobScartch-To-tabulate)：实验模块 · AI 工具探索的 Gemini 招聘信息前端交互尝试
-- [3D Particle Controller](https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller)：实验模块 · AI 工具探索的手势控制 3D 粒子系统尝试
-- [Christmas Tree · No Hand Control](https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll)：实验模块 · AI 工具探索的节日视觉交互实验
+- [Christmas Tree · Particle Effects](https://github.com/LQGbw/Christmas-Tree-with-partical-effects)：实验模块（AI 工具探索）：节日主题 3D 粒子视觉交互实验
+- [杭州地铁出口助手](https://github.com/LQGbw/metro-exit-helper)：实验模块（AI 工具探索）：出行场景前端交互原型
+- [JobCollector AI](https://github.com/LQGbw/JobScartch-To-tabulate)：实验模块（AI 工具探索）： Gemini 招聘信息前端交互尝试
+- [3D Particle Controller](https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller)：实验模块（AI 工具探索）：手势控制 3D 粒子系统尝试
+- [Christmas Tree · No Hand Control](https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll)：实验模块（AI 工具探索）：节日视觉交互实验
 
 ## 相关链接
 
