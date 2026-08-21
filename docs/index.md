@@ -169,6 +169,7 @@ hide:
 .md-main { background: var(--paper); }
 .md-main__inner { margin: 0 !important; }
 .md-content { max-width: none !important; }
+.md-content__title { display: none !important; }
 .md-content__inner { margin: 0 !important; padding: 0 !important; }
 </style>
 
