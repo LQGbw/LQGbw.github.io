@@ -1,10 +1,17 @@
-site_name: LQC的个人网站
-site_url: https://lqc.github.io
-site_author: LQC
-site_description: LQC的个人网站
-site_keywords: LQC,个人网站,博客
+site_name: LQGbw · 边学边做 AI
+site_url: https://lqgbw.github.io
+site_author: LQGbw
+site_description: LQGbw 的 AI 学习与实践主页：学习路线、AI 资源、工具实验与成长记录。
 site_favicon: assets/images/favicon.ico
 site_logo: assets/images/logo.png
-site_theme: readthedocs
-site_footer: Copyright 2025 LQC
-site_copyright: Copyright 2025 LQC
+
+theme:
+  name: material
+  language: zh
+  font: false
+  features:
+    - navigation.instant
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
