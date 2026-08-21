@@ -105,7 +105,7 @@ hide:
       .path-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 25px; color: var(--muted); font-size: 11px; }
       .path-foot a { color: var(--purple-deep); font-weight: 700; }
 
-      .resource-section { background: var(--warm); }
+      .course-strip { display: flex; align-items: center; gap: 18px; margin-top: 16px; padding: 18px 21px; border: 1px solid var(--line); border-radius: 18px; background: white; }\n      .course-number { width: 45px; height: 45px; display: grid; place-items: center; flex: none; border-radius: 13px; background: var(--purple); color: white; font-size: 16px; }\n      .course-copy { flex: 1; }\n      .course-kicker { color: var(--purple-deep); font-size: 10px; font-weight: 700; letter-spacing: .12em; }\n      .course-copy h3 { margin: 2px 0 1px; font-size: 16px; letter-spacing: -.03em; }\n      .course-copy p { margin: 0; color: var(--muted); font-size: 12px; }\n      .course-strip > a { color: var(--purple-deep); font-size: 12px; font-weight: 700; white-space: nowrap; }\n      .resource-section { background: var(--warm); }
       .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; }
       .filter { padding: 8px 13px; border: 1px solid #ded5cd; border-radius: 99px; background: rgba(255,255,255,.58); color: var(--muted); cursor: pointer; font: inherit; font-size: 12px; }
       .filter.active, .filter:hover { border-color: var(--purple); background: var(--purple); color: white; }
@@ -151,7 +151,7 @@ hide:
         .wrap { width: min(100% - 30px, 620px); }
         .links { display: none; }
         .hero { padding-top: 53px; }
-        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        .project.featured { grid-column: auto; }
+        .hero-grid, .project-grid { grid-template-columns: 1fr; gap: 40px; }\n        .course-strip { align-items: flex-start; flex-wrap: wrap; }\n        .course-strip > a { margin-left: 63px; }\n                .project.featured { grid-column: auto; }
         .hero-card { max-width: 520px; margin: 0 auto; }
         section { padding: 70px 0; }
         .section-head { display: block; }
@@ -207,6 +207,7 @@ hide:
 
   <section id="path"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING PATH</div><h2>从好奇开始，<br />做出自己的路线。</h2></div><p class="section-intro">不追求一次学完所有东西。每条路线都对应一个真实目标，用作品检验学习。</p></div>
     <div class="path-grid"><article class="path-card reveal"><div><div class="path-icon">◎</div><h3>AI 工具入门</h3><p>认识主流 AI 工具，找到适合自己的工作方式，完成第一个可复用工作流。</p></div><div class="path-foot"><span>4 个章节 · 入门</span><a href="#resources">开始学习 →</a></div></article><article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>Prompt 与工作流</h3><p>从“问得更好”到“做成流程”，把零散的提示词变成稳定的生产力。</p></div><div class="path-foot"><span>6 个章节 · 实践</span><a href="#resources">开始学习 →</a></div></article><article class="path-card reveal"><div><div class="path-icon">✳</div><h3>Skill / 自动化</h3><p>学习如何封装自己的方法，让 AI 在重复任务中真正帮你省时间。</p></div><div class="path-foot"><span>进行中 · 持续更新</span><a href="#resources">查看进度 →</a></div></article></div>
+    <div class="course-strip reveal"><div class="course-number mono">02</div><div class="course-copy"><div class="course-kicker mono">STUDIED COURSE</div><h3>已学课程 · 第 02 期</h3><p>这是我已经学习过的一部分课程资料。先留下入口，后续再补充课程笔记、实践结果和自己的理解。</p></div><a href="https://mp.weixin.qq.com/s/o70Eq6DFCHCZr7wZvglN7g" target="_blank" rel="noreferrer">打开课程 ↗</a></div>
   </div></section>
 
   <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / RESOURCE LIBRARY</div><h2>拿来就用的<br />AI 资源库。</h2></div><p class="section-intro">把我用过、做过、验证过的东西留下来。每份资源都附有使用场景和实践说明。</p></div>
