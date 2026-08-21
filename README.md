@@ -28,11 +28,11 @@
 
 ## 公开实验项目
 
-这些仓库目前主要是前端展示、交互和 AI 生成式尝试，属于公开学习经历，并非成熟可直接使用的工具：
+这些仓库目前都属于阶段 02 的公开学习经历，主要是前端展示、交互和 AI 生成式尝试，并不是成熟、可直接使用的工具：
 
 - [Christmas Tree · Particle Effects](https://github.com/LQGbw/Christmas-Tree-with-partical-effects)：阶段 02 的节日主题 3D 粒子视觉交互实验
-- [杭州地铁出口助手](https://github.com/LQGbw/metro-exit-helper)：阶段 04 的出行场景交互原型
-- [JobCollector AI](https://github.com/LQGbw/JobScartch-To-tabulate)：阶段 04 的 Gemini 招聘信息整理尝试
+- [杭州地铁出口助手](https://github.com/LQGbw/metro-exit-helper)：阶段 02 的出行场景前端交互原型
+- [JobCollector AI](https://github.com/LQGbw/JobScartch-To-tabulate)：阶段 02 的 Gemini 招聘信息前端交互尝试
 - [3D Particle Controller](https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller)：阶段 02 的手势控制 3D 粒子系统尝试
 - [Christmas Tree · No Hand Control](https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll)：阶段 02 的节日视觉交互实验
 
