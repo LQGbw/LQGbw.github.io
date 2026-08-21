@@ -197,57 +197,57 @@ hide:
       <div class="reveal">
         <div class="eyebrow mono">PERSONAL LAB / 001</div>
         <h1>边学边做，<br /><em>把 AI 变成</em>真实能力。</h1>
-        <p class="lead">我是 LQGbw，正在记录从了解 AI 工具，到做出真正有用的小项目的过程。这里有学习路线、实践项目、可复用资源，也有一路上的真实思考。</p>
+        <p class="lead">我是 LQGbw，正在记录从学习 AI 基础与行业认知，到尝试有实际用途的小工具，再逐步走向产品、Agent 和多 Agent 的过程。这里有学过的内容、做过的实验，也有下一步的规划。</p>
         <div class="hero-actions"><a class="button primary" href="#learning">查看学习路线 <span>↓</span></a><a class="button ghost" href="#experiments">看我的项目 ↗</a></div>
-        <p class="hero-note"><span>现在进行中：</span>梳理学习、实验和个人介绍三条线 · 持续更新</p>
+        <p class="hero-note"><span>现在进行中：</span>梳理 AI 学习、项目经历和未来规划 · 持续更新</p>
       </div>
       <div class="hero-card reveal">
         <div class="card-top"><div class="avatar">✦</div><span class="status">● 持续更新中</span></div>
         <h3>我的 AI 成长地图</h3>
-        <p>从会用工具，到能做出作品。</p>
+        <p>从学过什么，到做过什么，再到下一步。</p>
         <div class="progress" style="margin-top: 23px"><div class="progress-head"><span>当前学习进度</span><span>38%</span></div><div class="bar"><i></i></div></div>
         <div class="mini-grid"><div class="mini"><strong>07</strong><span>成长阶段</span></div><div class="mini"><strong>05</strong><span>公开实验</span></div><div class="mini"><strong>03</strong><span>内容模块</span></div></div>
       </div>
     </div>
   </section>
 
-  <div class="ticker"><div class="wrap ticker-inner"><strong class="mono">THIS WEEK</strong><span class="dot"></span><span>梳理 7 阶段成长路径</span><span class="dot"></span><span>记录 Coze 与 Dify 工作流</span><span class="dot"></span><span>把实验逐步变成可用工具</span></div></div>
+  <div class="ticker"><div class="wrap ticker-inner"><strong class="mono">THIS WEEK</strong><span class="dot"></span><span>梳理 7 阶段成长路径</span><span class="dot"></span><span>整理 AI 行业认知卡片</span><span class="dot"></span><span>把实验逐步变成可用工具</span></div></div>
 
-  <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到建立工作流的前三个阶段，课程只是起点，真正重要的是把知识变成自己的判断。</p></div>
+  <section id="learning"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">01 / LEARNING</div><h2>先把基础学明白，<br />再把方法做成流程。</h2></div><p class="section-intro">学习模块记录从理解 AI 到形成行业判断的前三个阶段，课程只是起点，真正重要的是把知识变成自己的认知框架。</p></div>
     <div class="path-grid">
       <article class="path-card reveal"><div><div class="path-icon">◎</div><h3>01 · 基础知识</h3><p>学习 AI 基本概念、模型、提示词和常见方法，建立自己的理解框架。</p></div><div class="path-foot"><span>课程与笔记</span><span class="path-status">持续整理</span></div></article>
       <article class="path-card reveal"><div><div class="path-icon">⌁</div><h3>02 · AI 工具探索</h3><p>尝试现有 AI 工具，记录真实体验，也保留还不成熟的前端展示和交互实验。</p></div><div class="path-foot"><span>工具体验</span><span class="path-status">探索中</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 知识问答工作流</h3><p>借助 Coze、Dify 等平台搭建知识库、问答和自动化工作流。</p></div><div class="path-foot"><span>Coze · Dify</span><span class="path-status">工作流实验</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">✳</div><h3>03 · 行业认知</h3><p>关注 AI 工具、应用场景、产品形态和行业变化，逐渐形成判断什么值得学、什么值得做的能力。</p></div><div class="path-foot"><span>趋势与场景</span><span class="path-status">持续观察</span></div></article>
     </div>
   </div></section>
 
-  <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / RESOURCE LIBRARY</div><h2>拿来就用的<br />AI 资源库。</h2></div><p class="section-intro">把我用过、做过、验证过的东西留下来。每份资源都附有使用场景和实践说明。</p></div>
+  <section class="resource-section" id="resources"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">SUPPORT / RESOURCE LIBRARY</div><h2>拿来就用的<br />AI 资源库。</h2></div><p class="section-intro">把我用过、做过、验证过的东西留下来。每份资源都附有使用场景和实践说明。</p></div>
     <div class="filters reveal" role="tablist" aria-label="资源筛选"><button class="filter active" data-filter="all">全部</button><button class="filter" data-filter="skill">Skill</button><button class="filter" data-filter="prompt">Prompt</button><button class="filter" data-filter="tool">工具</button></div>
     <div class="resource-grid"><article class="resource reveal" data-type="skill"><span class="resource-label">SKILL</span><h3>AI 周报整理助手</h3><p>把一周的碎片信息整理成清晰的周报结构，适合个人复盘和团队同步。</p><div class="resource-foot"><span>v0.1 · 刚刚更新</span><span class="resource-status">整理中</span></div></article><article class="resource reveal" data-type="prompt"><span class="resource-label">PROMPT</span><h3>工具测评提示词模板</h3><p>从功能、体验、适用人群和真实场景四个角度，快速写出一篇有用的工具测评。</p><div class="resource-foot"><span>可复制 · 免费</span><span class="resource-status">即将公开</span></div></article><article class="resource reveal" data-type="tool"><span class="resource-label">TOOLKIT</span><h3>AI 工具选择清单</h3><p>按写作、研究、设计、自动化和开发分类，记录我实际用过的工具。</p><div class="resource-foot"><span>21 个工具 · 持续补充</span><span class="resource-status">持续补充</span></div></article></div>
   </div></section>
 
-  <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">这里记录 AI 工具尝试、工作流实验和前端交互项目，重点是过程、判断与下一步。</p></div>
-    <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">实验模块承接学习模块的后三个阶段。下面的公开项目会按它们真实的尝试方向呈现，不把未成熟的 Demo 包装成产品。</p>
+  <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">这里记录从 AI 工具探索，到有实际用途的小型工具的真实经历；更完整的产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
+    <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">实验模块承接学习模块的实践部分：先做有实际用途的小型工具，再走向完整产品、Agent / Harness 和多 Agent。下面的公开项目会按真实经历归类，不把未成熟的 Demo 包装成产品。</p>
     <div class="path-grid" style="margin-bottom: 35px;">
-      <article class="path-card reveal"><div><div class="path-icon">✦</div><h3>04 · 可用工具开发</h3><p>从 Skill、插件和小工具开始，把已经验证的方法封装成真正可用的能力。</p></div><div class="path-foot"><span>Skill · 插件</span><span class="path-status">开始实践</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">▣</div><h3>05 · 完整产品开发</h3><p>做有明确场景、用户反馈和数据指标的产品，让实验接受真实使用检验。</p></div><div class="path-foot"><span>产品思维</span><span class="path-status">目标阶段</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⌘</div><h3>06 · Agent 开发</h3><p>探索模块化 Agent，让能力组件可以按场景自由组合与插拔。</p></div><div class="path-foot"><span>模块化能力</span><span class="path-status">未来方向</span></div></article>
-      <article class="path-card reveal"><div><div class="path-icon">⟐</div><h3>07 · 多 Agent 开发</h3><p>研究角色分工、协作、调度和可观测性，逐步构建多 Agent 系统。</p></div><div class="path-foot"><span>协作系统</span><span class="path-status">长期探索</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">✦</div><h3>04 · 小型实用工具</h3><p>从 Skill、插件和小工具开始，先解决一个具体问题，把方法变成可以真正使用的简单工具。</p></div><div class="path-foot"><span>Skill · 插件</span><span class="path-status">开始实践</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">▣</div><h3>05 · 完整产品</h3><p>围绕明确场景、用户反馈和数据指标，做更完整、更稳定、可以持续迭代的产品。</p></div><div class="path-foot"><span>产品化</span><span class="path-status">目标阶段</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">⌘</div><h3>06 · Agent / Harness</h3><p>探索 Agent 的开发与编排，让工具、能力和流程可以模块化组合、自由插拔。</p></div><div class="path-foot"><span>自由组合</span><span class="path-status">未来方向</span></div></article>
+      <article class="path-card reveal"><div><div class="path-icon">⟐</div><h3>07 · 多 Agent 开发</h3><p>研究角色分工、协作、调度和可观测性，让多个 Agent 在复杂任务中协同工作。</p></div><div class="path-foot"><span>协作系统</span><span class="path-status">长期探索</span></div></article>
     </div>
     <div class="project-grid">
-      <article class="project featured reveal"><div class="project-meta"><span>前端实验</span><span>AI STUDIO</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>交互 Demo</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>AI 尝试</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>视觉交互</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>视觉实验</span><span>FRONTEND</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project featured reveal"><div class="project-meta"><span>02 · 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>04 · 小型实用工具</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>04 · 小型实用工具</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>02 · 工具探索</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>02 · 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
     </div>
   </div></section>
 
-  <section class="about-section" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / ABOUT ME</div><h2>我不是专家，<br />我在公开成长。</h2></div><p class="section-intro">这是一个边学边做的个人主页：把学过的内容、做过的实验和正在形成的方法放在同一条线上。</p></div>
+  <section class="about-section" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / ABOUT ME</div><h2>我学过什么，<br />做过什么，下一步去哪。</h2></div><p class="section-intro">个人介绍不是静态简历，而是一条会持续更新的成长线：把学习、经历和未来规划放在一起。</p></div>
     <div class="about-grid">
-      <article class="about-card reveal"><div class="path-icon">✦</div><h3>我在学习什么</h3><p>从基础知识出发，逐步理解 AI 工具、知识问答工作流、Agent 和多 Agent 的发展路径。</p><a href="#learning">查看学习模块 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我如何记录</h3><p>不把不成熟的尝试包装成成果，保留真实项目、公开仓库、踩坑和阶段性结论。</p><a href="#experiments">查看实验模块 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">○</div><h3>我在哪里更新</h3><p>主页沉淀长期结构，小红书分享更短的实践笔记，GitHub 保存可以复看的代码与页面。</p><a href="https://xhslink.cn/o/UHwuRBq7E0" target="_blank" rel="noreferrer">去小红书看看 ↗</a></article>
+      <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="#learning">查看学习模块 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也尝试过有实际用途的小型工具；它们都是公开成长记录。</p><a href="#experiments">查看实验经历 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>从小型实用工具走向完整产品，再探索 Agent / Harness 的自由插拔和多 Agent 协作。</p><a href="#experiments">查看未来路线 →</a></article>
     </div>
   </div></section>
 
