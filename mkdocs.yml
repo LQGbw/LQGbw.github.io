@@ -2,8 +2,6 @@ site_name: LQGbw · 边学边做 AI
 site_url: https://lqgbw.github.io
 site_author: LQGbw
 site_description: LQGbw 的 AI 学习与实践主页：学习路线、AI 资源、工具实验与成长记录。
-site_favicon: assets/images/favicon.ico
-site_logo: assets/images/logo.png
 
 theme:
   name: material
