@@ -197,7 +197,7 @@ hide:
       <div class="reveal">
         <div class="eyebrow mono">PERSONAL LAB / 001</div>
         <h1>边学边做，<br /><em>把 AI 变成</em>真实能力。</h1>
-        <p class="lead">我是 LQGbw，正在记录从学习 AI 基础与行业认知，到尝试有实际用途的小工具，再逐步走向产品、Agent 和多 Agent 的过程。这里有学过的内容、做过的实验，也有下一步的规划。</p>
+        <p class="lead">我是 LQGbw，正在记录从学习 AI 基础与行业认知，到尝试前端交互和 AI 工具，再逐步走向有实际用途的小工具、产品、Agent 和多 Agent 的过程。这里有学过的内容、做过的实验，也有下一步的规划。</p>
         <div class="hero-actions"><a class="button primary" href="#learning">查看学习路线 <span>↓</span></a><a class="button ghost" href="#experiments">看我的项目 ↗</a></div>
         <p class="hero-note"><span>现在进行中：</span>梳理 AI 学习、项目经历和未来规划 · 持续更新</p>
       </div>
@@ -226,8 +226,8 @@ hide:
     <div class="resource-grid"><article class="resource reveal" data-type="skill"><span class="resource-label">SKILL</span><h3>AI 周报整理助手</h3><p>把一周的碎片信息整理成清晰的周报结构，适合个人复盘和团队同步。</p><div class="resource-foot"><span>v0.1 · 刚刚更新</span><span class="resource-status">整理中</span></div></article><article class="resource reveal" data-type="prompt"><span class="resource-label">PROMPT</span><h3>工具测评提示词模板</h3><p>从功能、体验、适用人群和真实场景四个角度，快速写出一篇有用的工具测评。</p><div class="resource-foot"><span>可复制 · 免费</span><span class="resource-status">即将公开</span></div></article><article class="resource reveal" data-type="tool"><span class="resource-label">TOOLKIT</span><h3>AI 工具选择清单</h3><p>按写作、研究、设计、自动化和开发分类，记录我实际用过的工具。</p><div class="resource-foot"><span>21 个工具 · 持续补充</span><span class="resource-status">持续补充</span></div></article></div>
   </div></section>
 
-  <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">这里记录从 AI 工具探索，到有实际用途的小型工具的真实经历；更完整的产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
-    <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">实验模块承接学习模块的实践部分：先做有实际用途的小型工具，再走向完整产品、Agent / Harness 和多 Agent。下面的公开项目会按真实经历归类，不把未成熟的 Demo 包装成产品。</p>
+  <section id="experiments"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">02 / EXPERIMENTS</div><h2>把尝试留下来，<br />再慢慢做成作品。</h2></div><p class="section-intro">当前公开项目都属于 AI 工具探索和前端交互实验；有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent 是接下来的方向。</p></div>
+    <p class="section-intro reveal" style="max-width: 720px; margin: -12px 0 28px;">现在的公开仓库还不成熟，主要用于记录前端界面、交互方式和 AI 工具尝试。未来再从这些实验走向有实际用途的小型工具、完整产品、Agent / Harness 和多 Agent。</p>
     <div class="path-grid" style="margin-bottom: 35px;">
       <article class="path-card reveal"><div><div class="path-icon">✦</div><h3>04 · 小型实用工具</h3><p>从 Skill、插件和小工具开始，先解决一个具体问题，把方法变成可以真正使用的简单工具。</p></div><div class="path-foot"><span>Skill · 插件</span><span class="path-status">开始实践</span></div></article>
       <article class="path-card reveal"><div><div class="path-icon">▣</div><h3>05 · 完整产品</h3><p>围绕明确场景、用户反馈和数据指标，做更完整、更稳定、可以持续迭代的产品。</p></div><div class="path-foot"><span>产品化</span><span class="path-status">目标阶段</span></div></article>
@@ -236,8 +236,8 @@ hide:
     </div>
     <div class="project-grid">
       <article class="project featured reveal"><div class="project-meta"><span>02 · 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · Particle Effects</h3><p>一个节日主题的 3D 粒子视觉交互尝试，重点探索粒子聚散、状态切换和沉浸式前端表达。它是学习作品，不是成熟产品。</p><a class="project-link" href="https://github.com/LQGbw/Christmas-Tree-with-partical-effects" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>04 · 小型实用工具</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
-      <article class="project reveal"><div class="project-meta"><span>04 · 小型实用工具</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>REACT</span></div><h3>杭州地铁出口助手</h3><p>面向杭州地铁出行场景的前端交互原型，尝试把出口设施、无障碍信息、评论和小游戏放在同一个体验里。</p><a class="project-link" href="https://github.com/LQGbw/metro-exit-helper" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
+      <article class="project reveal"><div class="project-meta"><span>02 · AI 工具探索</span><span>GEMINI</span></div><h3>JobCollector AI</h3><p>用 Gemini 尝试把招聘信息从文本或截图中提取出来，并用卡片和本地记录整理投递信息。</p><a class="project-link" href="https://github.com/LQGbw/JobScartch-To-tabulate" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
       <article class="project reveal"><div class="project-meta"><span>02 · 工具探索</span><span>GEMINI</span></div><h3>3D Particle Controller</h3><p>尝试使用 Gemini 视觉能力识别人手势，控制 3D 粒子系统的状态变化，记录一次从想法到界面的探索。</p><a class="project-link" href="https://github.com/LQGbw/Copy-of-Gemini-3D-Particle-Controller" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
       <article class="project reveal"><div class="project-meta"><span>02 · 工具探索</span><span>前端交互</span></div><h3>Christmas Tree · No Hand Control</h3><p>同一主题下的另一个节日视觉版本，去掉手势控制，专注于树形状态变化、粒子效果和页面氛围。</p><a class="project-link" href="https://github.com/LQGbw/Chirstmas-Tree-without-hand-controll" target="_blank" rel="noreferrer">查看公开仓库 ↗</a></article>
     </div>
@@ -246,7 +246,7 @@ hide:
   <section class="about-section" id="about"><div class="wrap"><div class="section-head reveal"><div><div class="eyebrow mono">03 / ABOUT ME</div><h2>我学过什么，<br />做过什么，下一步去哪。</h2></div><p class="section-intro">个人介绍不是静态简历，而是一条会持续更新的成长线：把学习、经历和未来规划放在一起。</p></div>
     <div class="about-grid">
       <article class="about-card reveal"><div class="path-icon">✦</div><h3>我学过什么</h3><p>从 AI 基础知识、工具使用，到对应用场景和行业变化的持续观察，逐步建立自己的认知框架。</p><a href="#learning">查看学习模块 →</a></article>
-      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也尝试过有实际用途的小型工具；它们都是公开成长记录。</p><a href="#experiments">查看实验经历 →</a></article>
+      <article class="about-card reveal"><div class="path-icon">↗</div><h3>我有什么经历</h3><p>做过一些 Gemini、AI Studio 和前端交互实验，也做过一些带有工具想法的前端交互尝试；它们都是公开成长记录。</p><a href="#experiments">查看实验经历 →</a></article>
       <article class="about-card reveal"><div class="path-icon">○</div><h3>未来的规划想法</h3><p>从小型实用工具走向完整产品，再探索 Agent / Harness 的自由插拔和多 Agent 协作。</p><a href="#experiments">查看未来路线 →</a></article>
     </div>
   </div></section>
